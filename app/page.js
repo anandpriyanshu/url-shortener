@@ -10,7 +10,7 @@ export default function Home() {
             <p className="text-2xl font-bold">The best URL shortener in the Market </p>
             <p> We are the most straightfoward URL Shortener in the world. </p>
             <div className=' flex gap-3'>
-              <Link href="/generate"><button className='bg-blue-600 rounded-lg p-2 font-bold text-white'>Try now</button></Link>
+              <Link href="/shorten"><button className='bg-blue-600 rounded-lg p-2 font-bold text-white'>Try now</button></Link>
               <Link href="/github"><button className='bg-blue-600 rounded-lg p-2 font-bold text-white'>Github</button></Link>
             </div>
           </div>
