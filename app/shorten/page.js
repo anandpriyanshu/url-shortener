@@ -29,10 +29,11 @@ const Shorten = () => {
             .then((response) => response.json())
             .then((result) => {
                 setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shorturl}`)
-                seturl('')
-                setshorturl('')
+                seturl("")
+                setshorturl("")
                 console.log(result)
                 alert(result.message)
+
             })
             .catch((error) => console.error(error));
     }
